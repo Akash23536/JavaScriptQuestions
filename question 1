@@ -1,0 +1,19 @@
+// Q -> Program to find the smallest string 
+
+const firstString = "apple";
+const SecondString = "kiwi";
+const ThirdString = "watermelon";
+
+const LengthoffirstStr = firstString.length; // .length is used to find the length of string
+const LengthofSecondStr = SecondString.length;
+const LengthofThirdStr = ThirdString.length;
+
+if (LengthoffirstStr < LengthofSecondStr && LengthoffirstStr < LengthofThirdStr){
+    console.log(`${firstString}  is smaller`);           // template literal `${}`
+}else if (LengthofSecondStr < LengthoffirstStr && LengthofSecondStr < LengthofThirdStr){
+    console.log(`${SecondString} is smaller`);
+}else if (LengthofThirdStr < LengthofSecondStr && LengthofThirdStr < LengthoffirstStr){
+    console.log(`${ThirdString} is smaller`)
+}else{
+    console.log("2 or more than 2 same no of sting is present")
+}
