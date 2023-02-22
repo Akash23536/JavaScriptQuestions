@@ -1,2 +1,2 @@
 # JavaScriptQuestions
-Questions are from GFG Course 
+Question 1 - program to find the smallest string from 3 string
