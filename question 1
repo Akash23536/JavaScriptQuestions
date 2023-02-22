@@ -1,4 +1,4 @@
-// Q -> Program to find the smallest string 
+// Q -> Program to find the smallest string  among the given 3 string
 
 const firstString = "apple";
 const SecondString = "kiwi";
@@ -8,7 +8,7 @@ const LengthoffirstStr = firstString.length; // .length is used to find the leng
 const LengthofSecondStr = SecondString.length;
 const LengthofThirdStr = ThirdString.length;
 
-if (LengthoffirstStr < LengthofSecondStr && LengthoffirstStr < LengthofThirdStr){
+if (LengthoffirstStr < LengthofSecondStr && LengthoffirstStr < LengthofThirdStr){  // and logical operator is used 
     console.log(`${firstString}  is smaller`);           // template literal `${}`
 }else if (LengthofSecondStr < LengthoffirstStr && LengthofSecondStr < LengthofThirdStr){
     console.log(`${SecondString} is smaller`);
