@@ -1,0 +1,10 @@
+//Q ->  print the characters of the  given string
+
+const MyName = "ROSES ARE RED";
+
+const lengthofString = MyName.length;                // .length is used to find the length of string from 1-to-length
+
+for(let i = 0;i<lengthofString;i++) {
+    console.log(`The Character at index ${i} is ${MyName[i]}`);    //  variableName[i] is used to find the charater at its index i 
+
+}       
