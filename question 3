@@ -1,4 +1,4 @@
-Q -> function to print the sum of natural no 
+// Q -> function to print the sum of natural no 
 
 
 
@@ -9,4 +9,4 @@ function sumofn(x){
     }
     console.log(total);
 }
- sumofn(100);                        // invoking of function
+   sumofn(100);                        // invoking of function
