@@ -1,0 +1,12 @@
+Q -> function to print the sum of natural no 
+
+
+
+function sumofn(x){
+    let total=0;                      // total -> is pointer which value increse tern by tern in loop
+    for(let i=1;i<=x;i++){
+        total=total+i
+    }
+    console.log(total);
+}
+ sumofn(100);                        // invoking of function
