@@ -1,0 +1,12 @@
+//Q -> Check the vowels present at what index of givin string
+
+ const firstString = "the name is jaya bhadana";
+ const vowels = "aeiou";
+
+ for(let i=0;i<firstString.length;i++){
+    if(vowels.includes(firstString[i])){                         //.include -> method is used to compare it in true/false value
+        console.log(`${firstString[i]} is a vowel at index ${i}`)
+    }else {
+        console.log (`${firstString[i]} is not vowel at index ${i}`)
+    }
+ }
