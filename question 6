@@ -1,1 +1,15 @@
-//Q -> 
+//Q -> program to Convert string into Capital format of it staring Charater in uppercase
+
+
+
+let firstname = (userinput) => {                             // declaring Arrow fn  
+
+let firstWord = userinput[0].toUpperCase();             // Converting first character of string into  (Uppercase)
+let restWord = userinput.slice(1).toLowerCase();       // using .slice() fn to convert rest of character of string in (lowercase)
+
+let useroutput = firstWord.concat(restWord);           // using .concat() fn to Concatenate the 2 string
+
+console.log(useroutput);
+}
+
+firstname("akash");                               // calling fn to convert the string in format
