@@ -10,4 +10,6 @@ Question 4 - print pattern of 5x5 wall & print right angle triangle
 
 Question 5 -  Check the vowels present at what index of givin string
 
+Question 6 -
+
 
