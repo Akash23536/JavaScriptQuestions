@@ -14,4 +14,6 @@ Question 6 - program to Convert string into Capital format of it staring Charate
 
 Question 7 - program to check the size of your cloths  available in shop or not!!!
 
+Question 8 - Program to reverse/invert/Palindrome check  the String!!!
+
 
