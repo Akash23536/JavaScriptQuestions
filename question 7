@@ -1,0 +1,21 @@
+//Q -> program to check the size of your cloths  available in shop or not!!!
+
+
+//// Ans -> To run the code do this in Terminal -> 
+////       npm i readline-sync  // The readline-sync module install in your systeam
+////       node file_name     // Type the file Name after the node keyword 
+
+
+const availablesizes = ["S","M","XL","XXL","XXXL"];        
+
+const readlineSync = require("readline-sync");
+
+const userSize = readlineSync.question("What size You want - "); // ask question in terminal and take input
+
+const output = availablesizes.includes(userSize);
+              //console.log(output);               // return true or false value according to input
+if(output){
+    console.log("Your Size is available !!!");
+}else{
+    console.log("Soory Your Size is Not available");
+}
