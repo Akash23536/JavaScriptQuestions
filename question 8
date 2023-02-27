@@ -1,0 +1,15 @@
+// //Q -> Program to reverse/invert/Palindrome check  the String!!!
+
+
+let InvertString =(str1) => {                    // Declaring Arrow fn to Convert String into InvertString with ! parameter
+
+console.log(str1,"- Orignal String");          // print the orignal string  with a Message
+let str2 = str1.split("");                   // .split("") convert the string str1 into array of character in string
+// console.log(str2);                        // print the array of chracter 
+let str3 = str2.reverse();                    // .reverse() reverse the array
+// console.log(str3);                         // print the reverse array
+let str4 = str3.join("");                    // convert the reverse array into string
+console.log(str4,"- Reverse String");        // print the reverse string  with a Message
+}
+
+InvertString("I Love Panner")                // invoking the fn
