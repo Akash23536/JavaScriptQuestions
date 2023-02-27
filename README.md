@@ -8,8 +8,10 @@ Question 3 - function to print the sum of natural no to 100
 
 Question 4 - print pattern of 5x5 wall & print right angle triangle
 
-Question 5 -  Check the vowels present at what index of givin string
+Question 5 - Check the vowels present at what index of givin string
 
 Question 6 - program to Convert string into Capital format of it staring Charater in Uppercase
+
+Question 7 - program to check the size of your cloths  available in shop or not!!!
 
 
