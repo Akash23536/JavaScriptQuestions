@@ -1,1 +1,22 @@
-//
+////Q -> Program to Count zero present in the array 
+
+
+
+ let countZeroes=(arr)=> {                 // creating Arrow fn
+    
+        
+        let token = 0;                      //creting a varible token and assing a value =0
+
+        for(let i = 0;i<arr.length;i++){   // for loop to hover over the array
+            if(arr[i]==0){                 // conditin to check at which index zero are present
+                token++;                  // incresing the value of token as many times zero is found
+            
+            }
+            
+        }
+        console.log( token)               // printing the value of zero accurenct
+    }
+
+ countZeroes([1,1,1,1,1,0,0,0,]);         // invoking the function by passing the array as argument
+
+
